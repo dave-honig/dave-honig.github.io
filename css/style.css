@@ -1,4 +1,8 @@
 body {
+    background-image: url('./images/Vertical-line-blue-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,19 +11,21 @@ body {
 header {
     background-color: grey;
     color: white;
+    padding: .1em 1em;
 }
 
 nav {
-    background-color: #darkblue;
-    color: #black;
+    background-color: darkblue;
+    color: black;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 0 2em;
     margin: 0;
     display: flex;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
+    width: 30%;
     font-weight: bold;
 }
 
@@ -35,15 +41,31 @@ nav ul li a {
     display: block;
 }
 
-nav ul li a:hover {
+nav ul li a.active {
+  background-color: #1c7b1f;
+}
+
+nav ul li a:hover:not(.active) {
     background-color: #555;
 }
 
 section {
+    background-image: url('/images/Vertical-line-blue-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
     padding: 20px;
     margin: 20px;
 }
 
 section h1, section h2 {
     color: #333;
+}
+
+footer {
+    display: block;
+    background-color:darkcyan;
+    color: white;
+    padding: .1em 1em;
 }
