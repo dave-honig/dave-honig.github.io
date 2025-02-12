@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,11 +9,11 @@ body {
 header {
     background-color: grey;
     color: white;
-    padding: .1em 1em;
+    
 }
 
 nav {
-    background-color: darkblue;
+    background-color: #ec592d;
     color: black;
 }
 
@@ -20,8 +22,8 @@ nav ul {
     padding: 0 2em;
     margin: 0;
     display: flex;
-    /*justify-content: space-around;*/
-    width: 40%;
+    justify-content: space-around;
+    width: 50%;
     font-weight: bold;
 }
 
@@ -30,33 +32,34 @@ nav ul li {
 }
 
 nav ul li a {
-    background-color: darkblue;
+    background-color: #ec592d;
     color: #fff;
     text-decoration: none;
     padding: 15px 20px;
     display: block;
+
 }
 
 nav ul li a.active {
-  background-color: #1c7b1f;
+  
+  background-image: linear-gradient(#05005e, #0800a3);
 }
 
 nav ul li a:hover:not(.active) {
-    background-color: #555;
+    transition: background-color .5s, color .5s;
+    background-color: #f6b147;
+    color: #ec592d;
 }
 
 section {
-    /*background-image: url('/images/Vertical-line-blue-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;*/
-
-    /*padding: 20px;
-    margin: 20px;*/
+    padding: 0px;
+    margin-top: -20px;
 }
 
 section h1, section h2 {
-    color: #333;
+    color: #ffffff;
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 footer {
