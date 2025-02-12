@@ -1,5 +1,3 @@
-
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,42 +5,50 @@ body {
 }
 
 header {
-    background-color: grey;
-    color: white;
-    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: auto;
+    height: 4em;
 }
 
 nav {
     background-color: #ec592d;
     color: black;
+    padding: .2em;
 }
 
 nav ul {
     list-style: none;
-    padding: 0 2em;
+    padding: 0em 2em;
     margin: 0;
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    align-items: center; /* Center items vertically */
+    width: 60%;
     font-weight: bold;
 }
 
 nav ul li {
-    margin: 0;
+    font-size: 1.2em;
 }
 
 nav ul li a {
     background-color: #ec592d;
     color: #fff;
     text-decoration: none;
-    padding: 15px 20px;
+    padding: .5em 20px;
     display: block;
+    height: 100%; /* Ensure full height of parent element */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    border-radius: 10px;
 
 }
 
 nav ul li a.active {
-  
-  background-image: linear-gradient(#05005e, #0800a3);
+    background-image: linear-gradient(#05005e, #0800a3);
+    border: solid black .2em;
 }
 
 nav ul li a:hover:not(.active) {
@@ -53,7 +59,7 @@ nav ul li a:hover:not(.active) {
 
 section {
     padding: 0px;
-    margin-top: -20px;
+    margin-top: 0x;
 }
 
 section h1, section h2 {
@@ -62,9 +68,20 @@ section h1, section h2 {
     padding-left: 1em;
 }
 
+.translucent {
+    background-color: rgba(255, 255, 255, 0.2); /* White with 80% opacity */
+    padding: 10px 30px;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    margin: 0px;
+}
+
+.translucent h1, .translucent p {
+    color: white;
+}
+
 footer {
     display: block;
-    background-color:darkcyan;
+    background-color: darkcyan;
     color: white;
     padding: .1em 1em;
 }
