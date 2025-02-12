@@ -9,7 +9,7 @@ body {
 }
 
 body.services {
-    background-image: url('./images/Blue-circuit-board');
+    background-image: url('./images/Blue-circuit-board.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,7 +35,7 @@ nav ul {
     margin: 0;
     display: flex;
     /*justify-content: space-around;*/
-    width: 30%;
+    width: 40%;
     font-weight: bold;
 }
 
