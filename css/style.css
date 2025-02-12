@@ -1,25 +1,4 @@
 body {
-
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-div.background-image {
-    background-image: url('./images/Vertical-line-blue-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-div.services {
-    background-image: url('./images/Blue-circuit-board.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
