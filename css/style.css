@@ -12,7 +12,6 @@ body {
 
 .main_content {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
 }
 
 header {
@@ -20,21 +19,21 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: auto;
-    height: 4em;
 }
 
 nav {
-    background-color: #302b23;
-    color: black;
+    background: linear-gradient(to right, #373631, #302b23, #373631);
     padding: .2em;
     display: flex;
     justify-content: center;
     position: relative;
+    margin-bottom: -20px;
+
 }
 
 nav ul {
     list-style: none;
-    padding: 0em 2em;
+    padding: 0 1em;
     margin: 0;
     display: flex;
     justify-content: space-around;
@@ -48,40 +47,36 @@ nav ul li {
 }
 
 nav ul li a {
-    
     color: #fff;
     text-decoration: none;
     padding: .5em 20px;
-    display: block;
-    height: 100%; /* Ensure full height of parent element */
     display: flex;
-    border-radius: 10px;
-
+    border-radius: 5px;
 }
 
 nav ul li a.active {
-    background-image: linear-gradient(#05005e, #0800a3);
-    border: solid black .2em;
+    background: #91c9da;
+    color: #3c3b4d;
 }
 
 nav ul li a:hover:not(.active) {
     transition: background-color .5s, color .5s;
-    background-color: #f6b147;
-    color: #ec592d;
+    background-color: #ecdbc4;
+    color: #3c3b4d;
 }
 
 section {
-    padding: 0px;
-    margin-top: 0x;
+    padding: 1em;
+    margin-top: 0;
 }
 
 section h1, section h2 {
-    color: #ffffff;
+    color: #33322b;
     padding-top: 1em;
     padding-left: 1em;
 }
 
-.translucent {
+/*.translucent {
     background-color: rgba(255, 255, 255, 0.2); 
     padding: 10px 30px;
     border-radius: 10px; 
@@ -91,12 +86,50 @@ section h1, section h2 {
 
 .translucent h1, .translucent p {
     color: white;
-
-}
+}*/
 
 footer {
     display: block;
-    background-color: darkcyan;
+    background-color: #353531;
     color: white;
     padding: .1em 1em;
 }
+
+/*Putting the fonts here*/
+.poiret-one-regular {
+    font-family: "Poiret One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+ .quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.assistant {
+    font-family: "Assistant", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.molengo-regular {
+    font-family: "Molengo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.albert-sans {
+    font-family: "Albert Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
