@@ -3,31 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
     <title>Services</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Assistant:wght@200..800&family=Molengo&family=Poiret+One&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   </head>
 
-  <body class="services">
-    <header style="background-image: url('./images/blue-bar-graph-background-resize-v2.jpg');">
-    </header>
-    
-    <nav>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a class="active" href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <body>
+    <div class="master_background">
+      <div class="main_content">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="image-test.html">Image Test</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <div class="body-text"><h1>This is Services Page!</h1></div>
-    
-    <footer>
-      <p>&copy; 2025 David Honig. All rights reserved.</p>
-    </footer>
+        <div class="background-image" style="
+            background-image: url('./images/light-blue-charts.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            width: auto;
+            height: 100%;
+            padding-left: 1.2em;
+            padding-top: 1.5em;">
+          
+          <section id="services">
+            <div class="services_photo">
+              <img src="./images/Sample_thinking.jpg" alt="Dave thinking"/>
+            </div>
+
+            <div class="services_text">
+              <div class="translucent">
+
+                <h1 class="albert-sans">
+                  <span class="molengo-regular" style="font-size: 1.5em;">I see you're looking for some data analysis</span><br/>
+
+                  <p>Let me try and help with that </p>
+                </h1>
+
+              </div> <!--end translucent-->
+            </div> <!--end services_text-->
+          </section> <!-- end contact section -->
+        
+        </div> <!--end background-image-->
+
+        <footer>
+            <p>&copy; 2025 David Honig. All rights reserved.</p>
+        </footer>
+      </div> <!--end main content-->
+    </div> <!--end master background-->
   </body>
 </html>
