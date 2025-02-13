@@ -4,6 +4,17 @@ body {
     padding: 0;
 }
 
+.master_background {
+    padding: 5%;
+    background-image: linear-gradient(to right, #374845, #2f6c5a);
+    min-height: 100vh;
+}
+
+.main_content {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
 header {
     background-size: contain;
     background-repeat: no-repeat;
@@ -13,9 +24,12 @@ header {
 }
 
 nav {
-    background-color: #ec592d;
+    background-color: #302b23;
     color: black;
     padding: .2em;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 nav ul {
@@ -34,14 +48,13 @@ nav ul li {
 }
 
 nav ul li a {
-    background-color: #ec592d;
+    
     color: #fff;
     text-decoration: none;
     padding: .5em 20px;
     display: block;
     height: 100%; /* Ensure full height of parent element */
     display: flex;
-    align-items: center; /* Center text vertically */
     border-radius: 10px;
 
 }
@@ -69,14 +82,16 @@ section h1, section h2 {
 }
 
 .translucent {
-    background-color: rgba(255, 255, 255, 0.2); /* White with 80% opacity */
+    background-color: rgba(255, 255, 255, 0.2); 
     padding: 10px 30px;
-    border-radius: 10px; /* Optional: Adds rounded corners */
+    border-radius: 10px; 
     margin: 0px;
+    display: inline-block;
 }
 
 .translucent h1, .translucent p {
     color: white;
+
 }
 
 footer {
