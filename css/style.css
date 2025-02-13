@@ -21,6 +21,8 @@ header {
     width: auto;
 }
 
+/*Navigation Bar*/
+
 nav {
     background: linear-gradient(to right, #373631, #302b23, #373631);
     padding: .2em;
@@ -33,12 +35,12 @@ nav {
 
 nav ul {
     list-style: none;
-    padding: 0 1em;
+    padding: 0 .5em;
     margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center; /* Center items vertically */
-    width: 60%;
+    width: 70%;
     font-weight: bold;
 }
 
@@ -65,6 +67,8 @@ nav ul li a:hover:not(.active) {
     color: #3c3b4d;
 }
 
+/*Section Formatting*/
+
 section {
     padding: 1em;
     margin-top: 0;
@@ -76,16 +80,14 @@ section h1, section h2 {
     padding-left: 1em;
 }
 
-.translucent {
-    background-color: rgba(255, 255, 255, 0.7); 
+/*Homepage*/
+
+.home_text {
+    margin-top: 15%;
+    margin-left: 10%;
     padding: 10px 30px;
     border-radius: 10px; 
-    margin: 0px;
     display: inline-block;
-}
-
-.translucent h1, .translucent p {
-    color: white;
 }
 
 footer {
@@ -94,6 +96,45 @@ footer {
     color: white;
     padding: .1em 1em;
 }
+
+/*About Page*/
+
+section#about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.about_photo {
+    flex: 0 0 25%;
+    max-width: 30vw;
+    padding: 1em;
+}
+
+.about_photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about_text {
+    flex: 1;
+    padding: 1em;
+}
+
+.about_text .translucent h1 p {
+    padding: 0 1em 1em 1em;
+    
+}
+
+/*Special formatting*/
+
+.translucent {
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+
 
 /*Putting the fonts here*/
 .poiret-one-regular {
