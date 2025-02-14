@@ -30,7 +30,7 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: auto;
+    width: 100%;
 }
 
 footer {
@@ -137,7 +137,7 @@ section#about {
     padding: 1em;
 }
 
-.about_text .translucent h1 p {
+.about_text .translucent h1 p{
     padding: 0 1em 1em 1em;
     
 }
@@ -202,9 +202,7 @@ section#contact {
     padding: 0 1em 1em 1em;  
 }
 
-#contact_form {
 
-}
 
 #contact_form iframe {
     width: 100%;
