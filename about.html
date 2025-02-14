@@ -1,67 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>About Me</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Assistant:wght@200..800&family=Molengo&family=Poiret+One&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-  </head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Assistant:wght@200..800&family=Molengo&family=Poiret+One&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    </head>
 
   <body>
     <div class="master_background">
-      <div class="main_content">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a class="active" href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="image-test.html">Image Test</a></li>
-                </ul>
-            </nav>
-        </header>
+      <header>
+          <nav>
+              <ul class="albert-sans">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a class="active" href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="contact.html">Contact</a></li>
 
-        <div class="background-image" style="
-            background-image: url('./images/Blue-circuit-board.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            min-height: 100vh;
-            width: auto;
-            height: 100%;
-            padding-left: 1.2em;
-            padding-top: 1.5em;">
+              </ul>
+          </nav>
+      </header>
+
+      <div class="main_background" style="background-image: url('./images/Blue-circuit-board.jpg');">
+
+        <div class="main_content">        
+
+            <section id="about">
+              <div class="about_photo">
+                <img src="./images/Sample_Wave2.jpg" alt="Dave waving"/>
+              </div>
+
+              <div class="about_text">
+                <div class="translucent">
+
+                  <h1 class="albert-sans">
+                    <span class="molengo-regular" style="font-size: 1.5em;">That guy on the left is me waving</span><br/>
+
+                    <p>I've worked in Northern Virginia for non-profit and for-profit companies for many years in the pharmacy and education industries. <br/><br/>
+
+                    I hope my experience will demonstrate how I can be a valuable asset to your organization. </p>
+                  </h1>
+
+                </div> <!--end translucent-->
+              </div> <!--end about_text-->
+            </section> <!-- end contact section -->
           
-          <section id="about">
-            <div class="about_photo">
-              <img src="./images/Sample_Wave2.jpg" alt="Dave waving"/>
-            </div>
-
-            <div class="about_text">
-              <div class="translucent">
-
-                <h1 class="albert-sans">
-                  <span class="molengo-regular" style="font-size: 1.5em;">That guy on the left is me waving</span><br/>
-
-                  <p>I've worked in Northern Virginia for non-profit and for-profit companies for many years in the pharmacy and education industries. <br/><br/>
-
-                  I hope my experience will demonstrate how I can be a valuable asset to your organization. </p>
-                </h1>
-
-              </div> <!--end translucent-->
-            </div> <!--end about_text-->
-          </section> <!-- end contact section -->
-        
-        </div> <!--end background-image-->
-
-        <footer>
+          </div> <!--end main content-->
+        </div> <!--end main background-->
+          <footer>
             <p>&copy; 2025 David Honig. All rights reserved.</p>
-        </footer>
-      </div> <!--end main content-->
+          </footer>
     </div> <!--end master background-->
   </body>
 </html>
