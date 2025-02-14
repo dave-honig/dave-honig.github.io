@@ -130,28 +130,26 @@ section {
 
 section h1, section h2 {
     color: #33322b;
-    margin: 3%;
+    margin: 10px;
 }
 
-
-
-section h1.molengo-regular {
+section h1 {
     font-size: 2em;
-
 }
 
-section h2.molengo-regular {
+section h2 {
     font-size: 1.5em;
     
 }
 
-.my_photo {
+.left_photo, .right_photo {
     flex: 0 0 25%;
     max-width: 30vw;
     padding: 1em;
 }
 
-.my_photo img {
+
+.left_photo img, .right_photo img {
     width: 100%;
     max-width: 20vw;
     height: auto;
@@ -159,22 +157,24 @@ section h2.molengo-regular {
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
+.text_div {
+    padding: 1em;
+}
+
 .translucent {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px; 
-    padding: 2%;
+    padding: 10px;
+    margin: auto;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     display: inline-block;
-}
+    max-width: 100%;
 
-.about_text, .services_text, .contact_text {
-    flex: 1;
-    padding: 1em;
+   
 }
 
 section#about, section#services, section#contact {
     display: flex;
-    flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
 }
@@ -185,18 +185,9 @@ section#contact {
 
 /*  Homepage  */
 
-.home_text {
-
-    border-radius: 10px; 
-}
-
 /*  About Page  */
 
-
-
 /*  Services Page  */
-
-
 
 /*  Contact Page  */
 
@@ -206,7 +197,4 @@ section#contact {
     border: none;
     display: block;
 }
-
-
-  
   
