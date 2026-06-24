@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>About Me</title>
-      <link rel="stylesheet" type="text/css" href="css/style.css"/>
-
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Assistant:wght@200..800&family=Molengo&family=Poiret+One&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    </head>
-
-  <body>
+import{j as a,U as u,r,a as i,i as o,R as h,b as m,P as g,c as y,d as v}from"../chunks/chunk-CpAoOEO5.js";/* empty css                      */const d=void 0,b=[{id:"9HkMcNLur2WwRwNhCRype"},{id:"Ebp305NH3DKjMN4TXUcCK",maxWidth:991},{id:"lD13bXNGRDf_HcpqXWz9e",maxWidth:767},{id:"pkZz20ag9BV_9rs_sHWFD",maxWidth:479}],f=void 0,x=[],S=[],j=e=>a.jsx("body",{className:"w-element",children:a.jsx(u,{code:` nav ul {
+    list-style: none;
+    padding: 0 .5em;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    width: 70%;
+    font-weight: bold;
+}
     <div class="master_background">
       <header>
           <nav>
@@ -31,7 +27,7 @@
 
             <section id="about">
               <div class="left_photo">
-                <img src="./images/Sample_idea.jpg" alt="Dave waving"/>
+                <img src="./images/Sample_idea.jpg" alt="Dave waving">
               </div>
 
               <div class="about_text">
@@ -73,8 +69,8 @@
           </div> <!--end main content-->
         </div> <!--end main background-->
           <footer>
-            <p>&copy; 2025 David Honig. All rights reserved. Website coded by me in Visual Studio Code</p>
+            <p>© 2025 David Honig. All rights reserved. Website coded by me in Visual Studio Code</p>
           </footer>
     </div> <!--end master background-->
-  </body>
-</html>
+  
+`,executeScriptOnCanvas:!0,className:"w-html-embed"})}),P=e=>{const{origin:s,pathname:n,search:t}=new URL(e);return`${s}${n}${t}`},_=r.memo(({pageKey:e,system:s})=>a.jsx(j,{system:s},e),(e,s)=>e.pageKey===s.pageKey),k=({data:e})=>{const{system:s,resources:n,url:t,pageMeta:l}=e,c=P(t),p=r.useMemo(()=>({imageLoader:o,assetBaseUrl:i,resources:n,breakpoints:b,onError:console.error}),[n]);return a.jsxs(h.Provider,{value:p,children:[a.jsx(m.Provider,{value:t,children:a.jsx(_,{pageKey:c,system:s})}),a.jsx(g,{url:t,pageMeta:l,siteName:d,imageLoader:o,assetBaseUrl:i}),a.jsx(y,{children:l.title})]})},T=Object.freeze(Object.defineProperty({__proto__:null,default:k},Symbol.toStringTag,{value:"Module"})),w=({})=>a.jsxs(a.Fragment,{children:[d,f,x.map(e=>a.jsx("link",{rel:"preload",href:`${i}${e}`,as:"font",crossOrigin:"anonymous"},e)),S.map(e=>a.jsx("link",{rel:"preload",href:`${i}${e}`,as:"image"},e))]}),A=Object.freeze(Object.defineProperty({__proto__:null,Head:w},Symbol.toStringTag,{value:"Module"})),D={isClientRuntimeLoaded:{type:"computed",definedAtData:null,valueSerialized:{type:"js-serialized",value:!0}},onBeforeRenderEnv:{type:"computed",definedAtData:null,valueSerialized:{type:"js-serialized",value:null}},dataEnv:{type:"computed",definedAtData:null,valueSerialized:{type:"js-serialized",value:{server:!0}}},onRenderClient:{type:"standard",definedAtData:{filePathToShowToUser:"/renderer/+onRenderClient.tsx",fileExportPathToShowToUser:[]},valueSerialized:{type:"plus-file",exportValues:v}},Page:{type:"standard",definedAtData:{filePathToShowToUser:"/pages/about/+Page.tsx",fileExportPathToShowToUser:[]},valueSerialized:{type:"plus-file",exportValues:T}},Head:{type:"standard",definedAtData:{filePathToShowToUser:"/pages/about/+Head.tsx",fileExportPathToShowToUser:[]},valueSerialized:{type:"plus-file",exportValues:A}}};export{D as configValuesSerialized};
